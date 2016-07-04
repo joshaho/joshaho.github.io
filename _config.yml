@@ -189,6 +189,10 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -224,6 +228,14 @@ defaults:
       type: foo
     values:
       layout: single
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
 # HTML Compression
 # - http://jch.penibelst.de/
 compress_html:

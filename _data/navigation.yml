@@ -4,8 +4,8 @@ main:
   - title: "About"
     url: /about/
     
-  - title: "Current Projects"
-    url: /projects/
+  - title: "Projects"
+    url: /portfolio/
     
   - title: "Resume"
     url: /resume/
