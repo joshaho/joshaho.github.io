@@ -11,7 +11,7 @@ title                    : "Josha Ho"
 title_separator          : "-"
 name                     : "Josha Ho"
 description              : "Student, Dancer, Coffee Geek."
-url                      : 
+url                      : "http://www.joshaho.com"
 # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
@@ -87,7 +87,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "http://twitter.com/hojosha"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
