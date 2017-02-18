@@ -3,7 +3,7 @@ title: "Rube Goldberg Machine (2015-2016)"
 excerpt: "Experiential Learning with the Abbotsford School District"
 header:
   image: rubepreview.jpg
-  teaser: rubepreview2.jpg
+  teaser: rubeteaser.jpg
 sidebar:
   - title: "Role"
     text: "Collaborator"
