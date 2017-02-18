@@ -3,32 +3,19 @@ title: "Josha Ho"
 layout: splash
 header:
    overlay_image: SiteHeader.jpg
-   cta_label: "About Me"
-   cta_url: /about/
+   cta_label: "Contact Me"
+   cta_url: /contact/
    caption: "Credit: Chris Loh, Rick Havinga, Darren Blakeborough"
-   
+author_profile: true
 intro:
   - excerpt: 'What have I been up to lately?'
-feature_row:
-  - image_path: assets/images/bio-photo.jpg
-    title: "Convocation"
-    excerpt: "From now on, we're contributors instead of pupils."
-  - image_path: /assets/images/bio-photo.jpg
-    title: "High School Lectures"
-    excerpt: "\"I couldn't reduce it to the freshman level. That means we really don't understand it.\"&mdash;Feynman"
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--inverse"
-  - image_path: /assets/images/bio-photo.jpg
-    title: "Rossi Gang"
-    excerpt: "You have to unwind somehow."
 ---
 
 {% include feature_row id="intro" type="center" %}
 
 <div class="grid__wrapper">
   {% for post in site.posts %}
-    {% include archive-single.html type="grid" %}
+    {% include archive-single.html type="grid"%}
   {% endfor %}
 </div>
 
