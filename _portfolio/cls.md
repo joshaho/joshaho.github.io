@@ -11,6 +11,6 @@ sidebar:
     text: "Operated REIXS endstation, analyzed X-ray emission and absorption data, hosted outreach events for general public."
 ---
 
-Dilute magnetic semiconductors are materials that allow spin control in conventional semiconductors by introducing transition metal impurities. They have applications in spintronics and are key in developing new innovations like quantum computers and increating efficiency in electronics.  
+Dilute magnetic semiconductors are materials that allow spin control in conventional semiconductors by introducing transition metal impurities. They have applications in spintronics and are key in developing new innovations like quantum computers and increasing efficiency in electronics.  
 
 As a member of the [beamteam](http://beamteam.usask.ca) I use the REIXS beamline at the Canadian Light Source and 8.0.1 at the Advanced Light Source in Berkeley, California to analyze key properties in these materials, helping to move forward in critical fields of advance technology.
