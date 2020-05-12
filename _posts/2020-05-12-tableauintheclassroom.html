@@ -1,16 +1,20 @@
 ---
 title: "Outreach"
+layout: single
 excerpt: "Engagement: Tableau in the Classroom"
 header:
    overlay_image: carlos-muza-hpjSkU2UYSU-unsplash.jpg
    teaser: blackboard.jpg
-  caption: "Credit: Carlos Muza (Unsplash)"
+   caption: "Credit: Carlos Muza (Unsplash)"
 read_time: false
 
 
 ---
 
-<img src="MathInAction.png" alt="Screenshot of Dashboard Sample">
+<figure class="single">
+    <a href="/assets/images/MathInAction.png"><img src="/assets/images/MathInAction.png"></a>
+    <figcaption>Screenshot of Resuling Dashboard.</figcaption>
+</figure>
 
 <p>One of the fun projects I was able to work on over the past few months was in creating a quick diagnostics dashboard for a live survey at a conference. The ask was simple: <br> </p>
 
@@ -19,10 +23,15 @@ read_time: false
 
 <p>The survey was 20 questions long, with one free-form question, and the other 20 questions as rating from 1-5 (strongly disagree to strongly agree) where the interesting measure was the average. What was the fastest and easiest way to do this?</p>
 
-<p><h3>1. Google Forms</h3>:Since the person creating the survey didn’t want to code anything by hand, but wanted something responsive and easy to use, google forms is the natural solution. Here we were able to dump the results of the survey into a google sheet and create a quick and reusable “database” backend.</p>
+<p><h3>1. Google Forms</h3>Since the person creating the survey didn’t want to code anything by hand, but wanted something responsive and easy to use, google forms is the natural solution. Here we were able to dump the results of the survey into a google sheet and create a quick and reusable “database” backend.</p>
 
-<p><h3>2. Tableau Public</h3>: Since we weren’t collecting any sensitive information (Name, Age, etc), we used Tableau, and Tableau Public for a front-end interface. Tableau was able to directly fetch from a Google Sheet using the built-in connector. Unfortunately, this isn't a live connection, but we found a workaround using the "Update Now" button that appears with a Google Sheets connection.
-<img src="Tableau_UpdateNow.png" alt="Update Now button that appears in Tableau Public when attached to a Google Sheet.">
+<p><h3>2. Tableau Public</h3>Since we weren’t collecting any sensitive information (Name, Age, etc), we used Tableau, and Tableau Public for a front-end interface. Tableau was able to directly fetch from a Google Sheet using the built-in connector. Unfortunately, this isn't a live connection, but we found a workaround using the "Update Now" button that appears with a Google Sheets connection.
+
+<figure class="single">
+    <a href="/assets/images/Tableau_UpdateNow.png"><img src="/assets/images/Tableau_UpdateNow.png"></a>
+    <figcaption>Update Now button that appears in Tableau Public when attached to a Google Sheet.</figcaption>
+</figure>
+
 
 </p>
 
