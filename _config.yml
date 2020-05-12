@@ -68,8 +68,8 @@ google_ad_slot           :
 author:
   name             : "Josha Ho"
   avatar           : "headshot.jpg"
-  bio              : "Physicist, Dancer, Coffee Geek."
-  location         : "Abbotsford, BC"
+  bio              : "Data, Dancing, Drinks"
+  location         : "Toronto, ON"
   email            : "josha@joshaho.com"
   uri              :
   bitbucket        :
@@ -83,7 +83,7 @@ author:
   keybase          :
   instagram        : 
   lastfm           :
-  linkedin         :
+  linkedin         :  "josha-ho"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
