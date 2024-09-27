@@ -1,0 +1,70 @@
+{
+  "html": {
+    "lang": "en",
+    "title": "Josha Ho",
+    "description": "Data and Analytics",
+    "favicon": "/favicon.svg"
+  },
+  "background": {
+    "firstColor": "#00898D",
+    "secondColor": "#CBF3F0"
+  },
+  "header": {
+    "image": "/profile.jpg",
+    "alt": "The owner of this website.",
+    "title": "Josha Ho",
+    "description": "Data and Analytics",
+    "textColor": "white"
+  },
+  "socials": [
+    {
+      "network": "LinkedIn",
+      "username": "joshaho",
+      "url": "https://www.linkedin.com/in/joshaho/?locale=en_US"
+    },
+{
+      "network": "Facebook",
+      "username": "joshaho",
+      "url": "https://facebook.com/joshaho"
+    },
+    {
+      "network": "Instagram",
+      "username": "joshaho",
+      "url": "https://www.instagram.com/joshklanderman"
+    },
+    {
+      "network": "Mail",
+      "username": "joshaho",
+      "url": "mailto:josha@joshaho.com"
+    }
+  ],
+  "featured": [
+    {
+      "network": "Link",
+      "url": "https://swingerasteps.com",
+      "title": "Indianapolis Dance Lessons",
+      "textColor": "#FFF",
+      "backgroundImage": "/dance-header.jpg",
+      "backgroundColor": null,
+      "borderRadius": ".75rem"
+    }
+  ],
+  "buttons": [
+    {
+      "network": "Link",
+      "url": "https://gnclassroom.com",
+      "title": "Graphic Novels in STEM",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    },
+    {
+      "network": "Link",
+      "url": "https://tc24.joshaho.com/",
+      "title": "Tableau Resources",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    }
+  ]
+}
