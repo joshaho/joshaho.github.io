@@ -2,7 +2,7 @@
   "html": {
     "lang": "en",
     "title": "Josha Ho",
-    "description": "Analytics and AI in Indianapolis, Indiana",
+    "description": "Find and realize value - Indianapolis, Indiana",
     "favicon": "/favicon.svg"
   },
   "background": {
@@ -10,10 +10,10 @@
     "secondColor": "#CBF3F0"
   },
   "header": {
-    "image": "/profile.jpg",
+    "image": "/profile.jpeg",
     "alt": "The owner of this website.",
     "title": "Josha Ho",
-    "description": "Data Consultant in Indianapolis, Indiana",
+    "description": "Helping people find and realize value – Indianapolis, Indiana",
     "textColor": "white"
   },
   "socials": [
