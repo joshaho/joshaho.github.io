@@ -6,8 +6,8 @@
     "favicon": "/favicon.svg"
   },
   "background": {
-    "firstColor": "#16325C",
-    "secondColor": "#00A1E0"
+    "firstColor": "#00A1E0",
+    "secondColor": "#16325C"
   },
   "header": {
     "image": "/logo.png",
