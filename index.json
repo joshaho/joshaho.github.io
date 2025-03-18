@@ -1,19 +1,19 @@
 {
   "html": {
     "lang": "en",
-    "title": "Josha Ho",
-    "description": "Find and realize value - Indianapolis, Indiana",
+    "title": "Building the Tableau Business Case",
+    "description": "Quick Links and Resources",
     "favicon": "/favicon.svg"
   },
   "background": {
-    "firstColor": "#00898D",
-    "secondColor": "#CBF3F0"
+    "firstColor": "#16325C",
+    "secondColor": "#00A1E0"
   },
   "header": {
-    "image": "/profile.jpeg",
-    "alt": "The owner of this website.",
-    "title": "Josha Ho",
-    "description": "Helping people find and realize value – Indianapolis, Indiana",
+    "image": "/logo.png",
+    "alt": "Tableau Logo",
+    "title": "Tableau",
+    "description": "Helping people see and understand data",
     "textColor": "white"
   },
   "socials": [
@@ -35,16 +35,16 @@
     {
       "network": "Mail",
       "username": "joshaho",
-      "url": "mailto:josha@joshaho.com"
+      "url": "mailto:josha.ho@salesforce.com"
     }
   ],
   "featured": [
     {
       "network": "Link",
-      "url": "https://swingerasteps.com",
-      "title": "Indianapolis Dance Lessons",
+      "url": "https://tableau.com",
+      "title": "...",
       "textColor": "#FFF",
-      "backgroundImage": "/dance-header.jpg",
+      "backgroundImage": "/slides.png",
       "backgroundColor": null,
       "borderRadius": ".75rem"
     }
@@ -52,8 +52,8 @@
   "buttons": [
     {
       "network": "Link",
-      "url": "https://gnclassroom.com",
-      "title": "Graphic Novels in STEM",
+      "url": "...",
+      "title": "https://tableau.com",
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
@@ -61,7 +61,7 @@
     {
       "network": "Link",
       "url": "https://tc24.joshaho.com/",
-      "title": "Tableau Resources",
+      "title": "Tableau Workshop Resources",
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
