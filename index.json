@@ -52,8 +52,8 @@
   "buttons": [
     {
       "network": "Link",
-      "url": "...",
-      "title": "https://tableau.com",
+      "url": "https://tableau.com",
+      "title": "...",
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
