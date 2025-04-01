@@ -33,7 +33,10 @@ const SOCIAL_ICONS: Record<string, any> = {
   Twitch,
   WhatsApp,
   X,
-  YouTube
+  YouTube,
+  joshaho,
+  jeremymenninger,
+  benjamin-wolf-0a68942
 };
 ---
 
@@ -41,12 +44,12 @@ const SOCIAL_ICONS: Record<string, any> = {
   <div class="container">
     {
       socials.map(({ network, username, url }) => {
-        const Icon = SOCIAL_ICONS[network];
+        const Icon = SOCIAL_ICONS[username];
 
         return (
           <a
             href={url}
-            aria-label={`Visita el perfil de ${username} en ${network}`}
+            aria-label={`Visit ${username} on ${network}`}
             target="_blank"
             rel="noopener noreferrer"
           >

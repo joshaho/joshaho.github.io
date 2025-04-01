@@ -16,6 +16,23 @@
     "description": "Helping people see and understand data",
     "textColor": "white"
   },
+  "socials": [
+    {
+      "network": "LinkedIn",
+      "username": "joshaho",
+      "url": "https://www.linkedin.com/in/josha-ho/?locale=en_US"
+    },
+    {
+      "network": "LinkedIn",
+      "username": "jeremymenninger",
+      "url": "https://www.linkedin.com/in/jeremymenninger/"
+    },
+    {
+      "network": "LinkedIn",
+      "username": "benjamin-wolf-0a68942",
+      "url": "https://www.linkedin.com/in/benjamin-wolf-0a68942"
+    }
+  ],
   "featured": [
     {
       "network": "Link",
