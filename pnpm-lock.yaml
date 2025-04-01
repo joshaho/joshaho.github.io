@@ -12,7 +12,8 @@ importers:
         specifier: ^0.8.1
         version: 0.8.1(typescript@5.5.3)
       astro:
-        specifier: ^5.0.0
+        specifier: ^4.11.5
+        version: 4.11.5(typescript@5.5.3)
       typescript:
         specifier: ^5.5.3
         version: 5.5.3
