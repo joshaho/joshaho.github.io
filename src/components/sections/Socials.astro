@@ -18,6 +18,9 @@ import WhatsApp from "@/icons/WhatsApp.astro";
 import X from "@/icons/X.astro";
 import YouTube from "@/icons/YouTube.astro";
 import joshaho from '@/icons/jho-headshot.svg';
+import jeremymenninger from '@/icons/jho-headshot.svg';
+import benwolf from '@/icons/jho-headshot.svg';
+
 
 const SOCIAL_ICONS: Record<string, any> = {
   Discord,
@@ -35,7 +38,9 @@ const SOCIAL_ICONS: Record<string, any> = {
   WhatsApp,
   X,
   YouTube,
-  joshaho
+  joshaho,
+  jeremymenninger,
+  benwolf
 };
 ---
 
@@ -43,7 +48,7 @@ const SOCIAL_ICONS: Record<string, any> = {
   <div class="container">
     {
       socials.map(({ network, username, url }) => {
-        const Icon = SOCIAL_ICONS[network];
+        const Icon = SOCIAL_ICONS[username];
 
         return (
           <a
