@@ -44,7 +44,7 @@ const SOCIAL_ICONS: Record<string, any> = {
   <div class="container">
     {
       socials.map(({ network, username, url }) => {
-        const Icon = SOCIAL_ICONS[username];
+        const Icon = SOCIAL_ICONS[network];
 
         return (
           <a
