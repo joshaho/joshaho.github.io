@@ -105,6 +105,8 @@
       "network": "Link",
       "url": "https://www.salesforce.com/events/",
       "title": "Attend a Salesforce event",
+      "url": "https://tableauresources.com",
+      "title": "Tableau Resources",
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
