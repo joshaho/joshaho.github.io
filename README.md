@@ -1,8 +1,5 @@
 <a id="readme-top"></a>
 
-![AstroLinkHub Screenshot](/public/screenshot.webp)
-
-
 ## License
 
 Distributed under the MIT License. `Open Source` is pretty self-descriptive.
