@@ -16,33 +16,11 @@
     "description": "Helping people see and understand data",
     "textColor": "white"
   },
-  "socials": [
-    {
-      "network": "LinkedIn",
-      "username": "joshaho",
-      "url": "https://www.linkedin.com/in/josha-ho/?locale=en_US"
-    },
-{
-      "network": "Facebook",
-      "username": "joshaho",
-      "url": "https://facebook.com/joshaho"
-    },
-    {
-      "network": "Instagram",
-      "username": "joshaho",
-      "url": "https://www.instagram.com/joshklanderman"
-    },
-    {
-      "network": "Mail",
-      "username": "joshaho",
-      "url": "mailto:josha.ho@salesforce.com"
-    }
-  ],
   "featured": [
     {
       "network": "Link",
       "url": "https://tableau.com",
-      "title": "...",
+      "title": "Slide Deck",
       "textColor": "#FFF",
       "backgroundImage": "/slides.png",
       "backgroundColor": null,
@@ -52,16 +30,56 @@
   "buttons": [
     {
       "network": "Link",
-      "url": "https://tableau.com",
-      "title": "...",
+      "url": "https://www.salesforce.com/service/customer-service-incident-management/customer-satisfaction-survey/",
+      "title": "Creating a survey",
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
     },
     {
       "network": "Link",
-      "url": "https://tc24.joshaho.com/",
-      "title": "Tableau Workshop Resources",
+      "url": "https://www.tableau.com/learn/value-of-tableau/measuring-bi-value",
+      "title": "Measuring business value",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    },
+    {
+      "network": "Link",
+      "url": "https://help.tableau.com/current/blueprint/en-us/bp_use_cases.htm",
+      "title": "Documenting use-cases",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    },
+    {
+      "network": "Link",
+      "url": "https://www.tableau.com/compare/tableau-vs-power-bi",
+      "title": "Articulating Tableau advantages",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    },
+    {
+      "network": "Link",
+      "url": "https://www.tableau.com/how-to-evaluate-bi-tools ",
+      "title": "Evaluating BI tools",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    },
+    {
+      "network": "Link",
+      "url": "https://www.tableau.com/products/trial",
+      "title": "Start a BI trial",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    },
+    {
+      "network": "Link",
+      "url": "hhttps://help.tableau.com/current/blueprint/en-us/bp_executive_sponsor_roles_responsibilities.htm",
+      "title": "Tips for an executive sponsor",
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
