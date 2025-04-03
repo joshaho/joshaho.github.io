@@ -60,6 +60,14 @@
     },
     {
       "network": "Link",
+      "url": "https://appt.link/joshaho/",
+      "title": "Book a Meeting",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    }
+    {
+      "network": "Link",
       "url": "https://tableauresources.com",
       "title": "Tableau Resources",
       "textColor": "#FFF",
