@@ -1,19 +1,19 @@
 {
   "html": {
     "lang": "en",
-    "title": "Josha Ho",
-    "description": "Find and realize value - Indianapolis, Indiana",
+    "title": "Building the Tableau Business Case",
+    "description": "Quick Links and Resources",
     "favicon": "/favicon.svg"
   },
   "background": {
-    "firstColor": "#00898D",
-    "secondColor": "#CBF3F0"
+    "firstColor": "#00A1E0",
+    "secondColor": "#16325C"
   },
   "header": {
-    "image": "/profile.jpeg",
-    "alt": "The owner of this website.",
-    "title": "Josha Ho",
-    "description": "Helping people find and realize value – Indianapolis, Indiana",
+    "image": "/logo.png",
+    "alt": "Tableau Logo",
+    "title": "Tableau",
+    "description": "Helping people see and understand data",
     "textColor": "white"
   },
   "socials": [
@@ -22,29 +22,24 @@
       "username": "joshaho",
       "url": "https://www.linkedin.com/in/josha-ho/?locale=en_US"
     },
-{
-      "network": "Facebook",
-      "username": "joshaho",
-      "url": "https://facebook.com/joshaho"
+    {
+      "network": "LinkedIn",
+      "username": "jeremymenninger",
+      "url": "https://www.linkedin.com/in/jeremymenninger/"
     },
     {
-      "network": "Instagram",
-      "username": "joshaho",
-      "url": "https://www.instagram.com/joshklanderman"
-    },
-    {
-      "network": "Mail",
-      "username": "joshaho",
-      "url": "mailto:josha@joshaho.com"
+      "network": "LinkedIn",
+      "username": "benjaminwolf",
+      "url": "https://www.linkedin.com/in/benjamin-wolf-0a68942"
     }
   ],
   "featured": [
     {
       "network": "Link",
-      "url": "https://swingerasteps.com",
-      "title": "Indianapolis Dance Lessons",
+      "url": "https://tableau.com",
+      "title": "Slide Deck",
       "textColor": "#FFF",
-      "backgroundImage": "/dance-header.jpg",
+      "backgroundImage": "/slides.png",
       "backgroundColor": null,
       "borderRadius": ".75rem"
     }
@@ -52,24 +47,64 @@
   "buttons": [
     {
       "network": "Link",
-      "url": "https://gnclassroom.com",
-      "title": "Graphic Novels in STEM",
+      "url": "https://www.salesforce.com/service/customer-service-incident-management/customer-satisfaction-survey/",
+      "title": "Creating a survey",
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
     },
     {
       "network": "Link",
-      "url": "https://appt.link/joshaho/",
-      "title": "Book a Meeting",
+      "url": "https://www.tableau.com/learn/value-of-tableau/measuring-bi-value",
+      "title": "Measuring business value",
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
     },
     {
       "network": "Link",
-      "url": "https://tableauresources.com",
-      "title": "Tableau Resources",
+      "url": "https://help.tableau.com/current/blueprint/en-us/bp_use_cases.htm",
+      "title": "Documenting use-cases",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    },
+    {
+      "network": "Link",
+      "url": "https://www.tableau.com/compare/tableau-vs-power-bi",
+      "title": "Articulating Tableau advantages",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    },
+    {
+      "network": "Link",
+      "url": "https://www.tableau.com/how-to-evaluate-bi-tools ",
+      "title": "Evaluating BI tools",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    },
+    {
+      "network": "Link",
+      "url": "https://www.tableau.com/products/trial",
+      "title": "Start a BI trial",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    },
+    {
+      "network": "Link",
+      "url": "https://help.tableau.com/current/blueprint/en-us/bp_executive_sponsor_roles_responsibilities.htm",
+      "title": "Tips for an executive sponsor",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    },
+    {
+      "network": "Link",
+      "url": "https://www.salesforce.com/events/",
+      "title": "Attend a Salesforce event",
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
