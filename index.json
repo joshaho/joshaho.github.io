@@ -100,6 +100,14 @@
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
+    },
+    {
+      "network": "Link",
+      "url": "https://www.salesforce.com/events/",
+      "title": "Attend a Salesforce event",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
     }
   ]
 }
