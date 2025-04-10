@@ -17,6 +17,10 @@ import Twitch from "@/icons/Twitch.astro";
 import WhatsApp from "@/icons/WhatsApp.astro";
 import X from "@/icons/X.astro";
 import YouTube from "@/icons/YouTube.astro";
+import joshaho from '@/icons/jho-headshot.svg';
+import jeremymenninger from '@/icons/jeremymenninger.svg';
+import benwolf from '@/icons/ben.svg';
+
 
 const SOCIAL_ICONS: Record<string, any> = {
   Discord,
@@ -33,7 +37,10 @@ const SOCIAL_ICONS: Record<string, any> = {
   Twitch,
   WhatsApp,
   X,
-  YouTube
+  YouTube,
+  joshaho,
+  jeremymenninger,
+  benwolf
 };
 ---
 
@@ -41,12 +48,12 @@ const SOCIAL_ICONS: Record<string, any> = {
   <div class="container">
     {
       socials.map(({ network, username, url }) => {
-        const Icon = SOCIAL_ICONS[network];
+        const Icon = SOCIAL_ICONS[username];
 
         return (
           <a
             href={url}
-            aria-label={`Visita el perfil de ${username} en ${network}`}
+            aria-label={`Visit ${username} on ${network}`}
             target="_blank"
             rel="noopener noreferrer"
           >
