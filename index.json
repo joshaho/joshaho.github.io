@@ -6,15 +6,13 @@
     "favicon": "/jho-headshot.svg"
   },
   "background": {
-    "firstColor": "#00898D",
-    "secondColor": "#CBF3F0"
+    "firstColor": "#0a0e14"
   },
   "header": {
     "image": "/profile.jpeg",
     "alt": "The owner of this website.",
     "title": "Josha Ho",
-    "description": "Helping people find and realize value – Indianapolis, Indiana",
-    "textColor": "white"
+    "description": "Helping people find and realize value – Indianapolis, Indiana"
   },
   "socials": [
     {
@@ -43,28 +41,19 @@
       "network": "Link",
       "url": "https://gnclassroom.com",
       "title": "Graphic Novels in STEM",
-      "textColor": "#FFF",
-      "backgroundImage": "/gnclassroom-preview.jpg",
-      "backgroundColor": null,
-      "borderRadius": ".75rem"
+      "backgroundImage": "/gnclassroom-preview.jpg"
     }
   ],
   "buttons": [
     {
       "network": "Link",
       "url": "https://app.reclaim.ai/m/joshaho",
-      "title": "Book a Meeting",
-      "textColor": "#FFF",
-      "backgroundColor": "#000",
-      "borderRadius": ".75rem"
+      "title": "Book a Meeting"
     },
     {
       "network": "Link",
       "url": "https://tableauresources.com",
-      "title": "Tableau Resources",
-      "textColor": "#FFF",
-      "backgroundColor": "#000",
-      "borderRadius": ".75rem"
+      "title": "Tableau Resources"
     }
   ]
 }

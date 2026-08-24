@@ -2,41 +2,50 @@
 import { header } from "index.json";
 import Section from "@/components/Section.astro";
 
-const { title, description, image, alt, textColor } = header;
+const { title, description, image, alt } = header;
 ---
 
 <Section>
-  <div class="container" style={`color: ${textColor};`}>
-    <img src=`${image}` alt=`${alt}` />
+  <div class="container">
+    <img src={image} alt={alt} width="112" height="112" />
     <h1>{title}</h1>
-    <h2>{description}</h2>
+    <p class="tagline">{description}</p>
   </div>
 </Section>
 
 <style>
-  h1 {
-    padding-top: 1rem;
-    font-size: 2rem;
-  }
-
-  h2 {
-    padding-top: 0.5rem;
-    font-size: 1.1rem;
-    font-weight: normal;
-    text-wrap: pretty;
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   img {
     aspect-ratio: 1 / 1;
     object-fit: cover;
-    width: 128px;
-    border-radius: 16px;
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    border: 2px solid var(--border);
+    box-shadow:
+      0 0 0 6px rgba(45, 212, 191, 0.07),
+      0 8px 32px rgba(0, 0, 0, 0.45);
   }
 
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+  h1 {
+    padding-top: 1.25rem;
+    font-size: 1.9rem;
+    font-weight: 800;
+  }
+
+  .tagline {
+    padding-top: 0.5rem;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    text-wrap: pretty;
+    max-width: 34ch;
+    line-height: 1.55;
+    margin: 0;
   }
 </style>
