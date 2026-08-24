@@ -1,4 +1,5 @@
 ---
+import { html } from "index.json";
 import Layout from "@/layouts/Layout.astro";
 
 import Header from "@/components/sections/Header.astro";
@@ -6,6 +7,8 @@ import Socials from "@/components/sections/Socials.astro";
 import Featured from "@/components/sections/Featured.astro";
 import Buttons from "@/components/sections/Buttons.astro";
 import Articles from "@/components/sections/Articles.astro";
+
+const showWriting = (html as { writing?: boolean }).writing !== false;
 ---
 
 <Layout>
@@ -14,7 +17,7 @@ import Articles from "@/components/sections/Articles.astro";
     <Socials />
     <Featured />
     <Buttons />
-    <Articles />
+    {showWriting && <Articles />}
   </main>
 </Layout>
 

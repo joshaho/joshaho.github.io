@@ -1,59 +1,91 @@
 {
   "html": {
     "lang": "en",
-    "title": "Josha Ho",
-    "description": "Turning complexity into clarity — for manufacturers, students, and everyone in between – Indianapolis, Indiana",
-    "favicon": "/jho-headshot.svg"
+    "title": "Building the Tableau Business Case",
+    "description": "Quick links and resources for making the case for Tableau",
+    "favicon": "/favicon.svg",
+    "writing": false
   },
   "background": {
     "firstColor": "#0a0e14"
   },
   "header": {
-    "image": "/profile.jpeg",
-    "alt": "The owner of this website.",
-    "title": "Josha Ho",
-    "description": "Turning complexity into clarity — for manufacturers, students, and everyone in between – Indianapolis, Indiana"
+    "image": "/logo.png",
+    "alt": "Tableau Logo",
+    "title": "Tableau",
+    "description": "Helping people see and understand data"
   },
   "socials": [
     {
       "network": "LinkedIn",
-      "username": "joshaho",
+      "username": "josha-ho",
       "url": "https://www.linkedin.com/in/josha-ho/?locale=en_US"
     },
     {
-      "network": "Facebook",
-      "username": "joshaho",
-      "url": "https://facebook.com/joshaho"
-    },
-    {
-      "network": "Instagram",
-      "username": "joshaho",
-      "url": "https://www.instagram.com/joshklanderman"
-    },
-    {
       "network": "Mail",
-      "username": "joshaho",
-      "url": "mailto:josha@joshaho.com"
+      "username": "josha.ho@salesforce.com",
+      "url": "mailto:josha.ho@salesforce.com"
     }
   ],
   "featured": [
     {
       "network": "Link",
-      "url": "https://gnclassroom.com",
-      "title": "Graphic Novels in STEM",
-      "backgroundImage": "/gnclassroom-preview.jpg"
+      "url": "https://tableau.com",
+      "title": "Slide Deck",
+      "backgroundImage": "/slides.png"
     }
   ],
   "buttons": [
     {
       "network": "Link",
-      "url": "https://app.reclaim.ai/m/joshaho",
-      "title": "Book a Meeting"
+      "url": "https://tc25.joshaho.com/",
+      "title": "Tableau Learning Resources"
     },
     {
       "network": "Link",
-      "url": "https://tableauresources.com",
-      "title": "Tableau Resources"
+      "title": "Tableau Competitive Conversations",
+      "submenu": [
+        {
+          "network": "Link",
+          "url": "https://www.salesforce.com/service/customer-service-incident-management/customer-satisfaction-survey/",
+          "title": "Creating a survey"
+        },
+        {
+          "network": "Link",
+          "url": "https://www.tableau.com/learn/value-of-tableau/measuring-bi-value",
+          "title": "Measuring business value"
+        },
+        {
+          "network": "Link",
+          "url": "https://help.tableau.com/current/blueprint/en-us/bp_use_cases.htm",
+          "title": "Documenting use-cases"
+        },
+        {
+          "network": "Link",
+          "url": "https://www.tableau.com/compare/tableau-vs-power-bi",
+          "title": "Articulating Tableau advantages"
+        },
+        {
+          "network": "Link",
+          "url": "https://www.tableau.com/how-to-evaluate-bi-tools",
+          "title": "Evaluating BI tools"
+        },
+        {
+          "network": "Link",
+          "url": "https://www.tableau.com/products/trial",
+          "title": "Start a BI trial"
+        },
+        {
+          "network": "Link",
+          "url": "https://help.tableau.com/current/blueprint/en-us/bp_executive_sponsor_roles_responsibilities.htm",
+          "title": "Tips for an executive sponsor"
+        },
+        {
+          "network": "Link",
+          "url": "https://www.salesforce.com/events/",
+          "title": "Attend a Salesforce event"
+        }
+      ]
     }
   ]
 }

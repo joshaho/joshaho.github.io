@@ -40,8 +40,46 @@ const SOCIAL_ICONS: Record<string, any> = {
 <Section>
   <div class="container">
     {
-      buttons.map(({ network, url, title }) => {
+      buttons.map(({ network, url, title, submenu }) => {
         const Icon = SOCIAL_ICONS[network];
+
+        if (submenu) {
+          return (
+            <details class="button menu">
+              <summary>
+                <span class="icon-chip">
+                  <Icon />
+                </span>
+                <span class="label">{title}</span>
+                <svg
+                  class="arrow"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M9 18l6-6-6-6" />
+                </svg>
+              </summary>
+              <div class="submenu">
+                {submenu.map(({ network, url, title }) => {
+                  const SubIcon = SOCIAL_ICONS[network];
+
+                  return (
+                    <a href={url} target="_blank">
+                      <SubIcon />
+                      {title}
+                    </a>
+                  );
+                })}
+              </div>
+            </details>
+          );
+        }
 
         return (
           <a href={url} class="button" target="_blank">
@@ -59,8 +97,7 @@ const SOCIAL_ICONS: Record<string, any> = {
               stroke="currentColor"
               stroke-width="2"
               stroke-linecap="round"
-              stroke-linejoin="round"
-            >
+              stroke-linejoin="round">
               <path d="M9 18l6-6-6-6" />
             </svg>
           </a>
@@ -95,7 +132,8 @@ const SOCIAL_ICONS: Record<string, any> = {
       box-shadow 0.3s ease;
   }
 
-  .button:hover {
+  a.button:hover,
+  details.menu:has(summary:hover) {
     transform: translateY(-2px);
     border-color: var(--border-hover);
     background: var(--surface-hover);
@@ -104,8 +142,37 @@ const SOCIAL_ICONS: Record<string, any> = {
       0 0 28px rgba(45, 212, 191, 0.06);
   }
 
-  .button:active {
+  a.button:active {
     transform: translateY(0);
+  }
+
+  details.menu {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  summary {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    width: 100%;
+    padding: 0.95rem 1.1rem;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  details.menu[open] {
+    border-color: var(--border-hover);
+    background: var(--surface-hover);
   }
 
   .icon-chip {
@@ -139,8 +206,45 @@ const SOCIAL_ICONS: Record<string, any> = {
       color 0.3s ease;
   }
 
-  .button:hover .arrow {
+  a.button:hover .arrow,
+  details.menu[open] .arrow {
     transform: translateX(3px);
+    color: var(--accent);
+  }
+
+  details.menu[open] .arrow {
+    transform: rotate(90deg);
+  }
+
+  .submenu {
+    display: flex;
+    flex-direction: column;
+    padding: 0.4rem 0.75rem 0.75rem;
+  }
+
+  .submenu a {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.65rem 0.75rem;
+    border-radius: 11px;
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    transition:
+      color 0.25s ease,
+      background 0.25s ease;
+  }
+
+  .submenu a:hover {
+    color: var(--text);
+    background: rgba(45, 212, 191, 0.08);
+  }
+
+  .submenu a :global(svg) {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
     color: var(--accent);
   }
 </style>
