@@ -46,6 +46,11 @@
   ],
   "buttons": [
     {
+      "network": "Map",
+      "url": "/food-map",
+      "title": "Food Map"
+    },
+    {
       "network": "Link",
       "url": "https://app.reclaim.ai/m/joshaho",
       "title": "Book a Meeting"

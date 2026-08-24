@@ -1,0 +1,213 @@
+---
+import Layout from "@/layouts/Layout.astro";
+
+const MAP_URL =
+  "https://www.google.com/maps/d/viewer?mid=1W9aqSLbYGxhtkiYMG7GvUUw9xoRWm-QH&usp=sharing";
+
+const cities = [
+  { name: "Abbotsford, BC", file: "01-abbotsford-bc.kml", pins: 10 },
+  { name: "Vancouver, BC", file: "02-vancouver-bc.kml", pins: 47 },
+  { name: "Victoria, BC", file: "03-victoria-bc.kml", pins: 19 },
+  { name: "Seattle, WA", file: "04-seattle-wa.kml", pins: 38 },
+  { name: "San Francisco Bay, CA", file: "05-san-francisco-bay-ca.kml", pins: 35 },
+  { name: "Toronto, ON", file: "06-toronto-on.kml", pins: 64 },
+  { name: "Chicago, IL", file: "07-chicago-il.kml", pins: 41 },
+  { name: "Indianapolis, IN", file: "08-indianapolis-in.kml", pins: 50 },
+];
+---
+
+<Layout title="Food Map – Josha Ho">
+  <main class="wrap">
+    <a class="back" href="/">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="15"
+        height="15"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"><path d="m12 19-7-7 7-7" /><path d="M19 12H5" /></svg
+      >
+      joshaho.com
+    </a>
+
+    <header>
+      <h1>Ho Brothers' Food, Coffee &amp; Drinks</h1>
+      <p class="lede">
+        304 hand-picked restaurants, coffee roasters, breweries, and dessert
+        stops across eight cities. Closed spots are pruned regularly, and every
+        pin carries a note on what to order.
+      </p>
+    </header>
+
+    <a class="cta" href={MAP_URL} target="_blank" rel="noopener noreferrer">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path
+          d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+        /><circle cx="12" cy="10" r="3"></circle>
+      </svg>
+      Open the Map in Google Maps
+    </a>
+
+    <section>
+      <h2>Download the data</h2>
+      <p class="hint">
+        Every city is available as KML — drop it into Google Earth, import it
+        into your own Google My Map, or feed it into Leaflet, Mapbox, or QGIS.
+        The merged KMZ contains all cities in one file.
+      </p>
+      <ul class="downloads">
+        {
+          cities.map(({ name, file, pins }) => (
+            <li>
+              <a href={`/downloads/food-map/${file}`} download>
+                <span class="city">{name}</span>
+                <span class="meta">{pins} pins · KML</span>
+              </a>
+            </li>
+          ))
+        }
+        <li>
+          <a href="/downloads/food-map/food-map-merged.kmz" download>
+            <span class="city">All cities</span>
+            <span class="meta">304 pins · KMZ</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+</Layout>
+
+<style>
+  .wrap {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+  }
+
+  .back {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    margin-top: 2rem;
+    transition: color 0.25s ease;
+  }
+
+  .back:hover {
+    color: var(--accent);
+  }
+
+  header {
+    padding-top: 1.5rem;
+  }
+
+  h1 {
+    font-size: clamp(1.6rem, 5vw, 2.2rem);
+    font-weight: 800;
+    line-height: 1.2;
+  }
+
+  .lede {
+    color: var(--text-muted);
+    font-size: 1.02rem;
+    line-height: 1.6;
+    text-wrap: pretty;
+    margin: 0.9rem 0 0;
+  }
+
+  .cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    margin-top: 1.75rem;
+    padding: 1rem 1.25rem;
+    border-radius: 16px;
+    border: 1px solid var(--border-hover);
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 1rem;
+    transition:
+      transform 0.3s ease,
+      box-shadow 0.3s ease;
+  }
+
+  .cta:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 28px rgba(45, 212, 191, 0.15);
+  }
+
+  section {
+    margin-top: 2.5rem;
+    padding-bottom: 3rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+
+  .hint {
+    color: var(--text-muted);
+    font-size: 0.92rem;
+    line-height: 1.6;
+    margin: 0.5rem 0 1.25rem;
+    text-wrap: pretty;
+  }
+
+  .downloads {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .downloads a {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.85rem 1.1rem;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    transition:
+      border-color 0.25s ease,
+      background 0.25s ease;
+  }
+
+  .downloads a:hover {
+    border-color: var(--border-hover);
+    background: var(--surface-hover);
+  }
+
+  .city {
+    font-weight: 600;
+    color: var(--text);
+    font-size: 0.95rem;
+  }
+
+  .meta {
+    color: var(--text-muted);
+    font-size: 0.82rem;
+    white-space: nowrap;
+  }
+</style>
